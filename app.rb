@@ -6,7 +6,6 @@ class Application < Sinatra::Base
   end
 
   post '/greet' do
-    puts params
     erb :greet
   end
 end
